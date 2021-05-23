@@ -4,7 +4,7 @@ const mongodb = require('mongodb');
 
 const router = express.Router();
 
-const uri = "mongodb+srv://vue123:<password>@cluster0.uwzpz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://vue123:1234@cluster0.uwzpz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const client = new mongodb.MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Listar Todos os Posts
